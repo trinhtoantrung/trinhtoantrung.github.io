@@ -1,0 +1,120 @@
+html, body, h1, h2, h3, h4, p, img, ul, li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+}
+
+h1 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 70px;
+	font-weight: 100;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	width: 700px;
+	margin: 0 auto 0 auto;
+	font-weight: 100;
+}
+
+h2 strong {
+	font-weight: 900;
+}
+
+h3 {
+		font-family: 'Josefin Slab', serif;
+		font-size: 28px;
+		text-align: center;
+		font-weight: normal;
+		margin: 20px 0 20px 0;
+		border-bottom: 1px solid #555555;
+		padding-bottom: 5px;
+}
+
+p {
+	font-family: 'Josefin Slab', serif;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.header {
+	background-color: #999999;
+	padding: 10px;
+}
+
+.tagline {
+	background-color: #000000;
+	padding: 5px;
+}
+
+.course {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.course img {
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+.course li {
+	margin-bottom: 100px;
+}
+
+.course li:last-child {
+	margin-bottom: 90px;
+}
+
+.subject {
+	font-size: 25px;
+	color: #013ADF;
+	padding-top: 30px;
+}
+
+.description {
+	font-size: 20px;
+}
+
+.badges {
+	width: 700px;
+	margin: 0 auto 140px auto;
+}
+
+.badges img {
+	float: left;
+	margin-left: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.footer {
+	background-color: #999999;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	padding: 10px 0 0 0;
+}
+
+.footer p {
+	font-size: 28px;
+}
+
+.footer a {
+	text-decoration: none;	
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: #FF0040;
+}
